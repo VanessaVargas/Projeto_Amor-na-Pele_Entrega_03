@@ -13,7 +13,8 @@ body {
 .navbar {
   background-color: #058177;
 }
-.navbar ul li a {
+.navbar ul li a,
+.navbar button {
   font-size: larger;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -40,6 +41,9 @@ footer p,
 footer ul li a {
   color: #fff;
   text-align: center;
+}
+#formLogin {
+  border: none;
 }
 /*Página Home*/
 /*Carroseel*/
@@ -88,12 +92,14 @@ footer ul li a {
   font-size: 20px;
   font-weight: bold;
 }
-.card {
+.card,
+#formLogin {
   padding: 10px;
   text-align: center;
 }
 /*Páginas Cadastrar Empresa, Cadastrar Pessoa e Contato*/
-.titleForm {
+.titleForm,
+.modal-title {
   font-family: "Poppins", sans-serif;
   margin-top: 10px;
   text-align: center;
