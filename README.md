@@ -11,3 +11,5 @@
 ## Link da aplicação funcional 
 http://amornapele.somee.com/
 
+## Documento com o Pitch do Projeto
+https://github.com/VanessaVargas/Projeto_Amor-na-Pele_Entrega_03/blob/master/Pitch-%20Amor%20na%20Pele-%20Segunda%20entrega.pdf
