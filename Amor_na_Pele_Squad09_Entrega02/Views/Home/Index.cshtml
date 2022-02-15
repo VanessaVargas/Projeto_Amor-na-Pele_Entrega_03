@@ -3,63 +3,64 @@
 @{
     ViewData["Title"] = "Home";
 }
-
-<!--Carrossel -->
-<div id="carouselExampleFade"
-     class="carousel slide carousel-fade"
-     data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="~/imagens/banner-principal.png"
-                 class="d-block w-100"
-                 alt="imagem mulheres com flores" />
-            <div class="carousel-caption d-none d-md-block">
-                <h1>ONG Amor na Pele</h1>
-                <h4>
-                    Resgatando a autoestima e a alegria perdida, e transformando a
-                    vida e o destino de milhares de mulheres.
-                </h4>
-                <p><a class="btn btn-dark" asp-action="cadastrar">Cadastre-se!</a></p>
+<!-- Carrossel -->
+<section>
+    <div id="carouselExampleFade"
+         class="carousel slide carousel-fade"
+         data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagens/banner-principal.png"
+                     class="d-block w-100"
+                     alt="imagem mulheres com flores" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>ONG Amor na Pele</h1>
+                    <h4>
+                        Resgatando a autoestima e a alegria perdida, e transformando a
+                        vida e o destino de milhares de mulheres.
+                    </h4>
+                    <p><a class="btn btn-dark" asp-action="cadastrar">Cadastre-se!</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/banner-principal2.png"
+                     class="d-block w-100"
+                     alt="imagem mulher com flor" />
+                <div class="carousel-caption text-end">
+                    <h1>ONG Amor na Pele</h1>
+                    <h4>
+                        Resgatando a autoestima e a alegria perdida, e transformando a
+                        vida e o destino de milhares de mulheres.
+                    </h4>
+                    <p><a class="btn btn-dark" asp-action="cadastrar">Cadastrar</a></p>
+                </div>
             </div>
         </div>
-        <div class="carousel-item">
-            <img src="~/imagens/banner-principal2.png"
-                 class="d-block w-100"
-                 alt="imagem mulher com flor" />
-            <div class="carousel-caption text-end">
-                <h1>ONG Amor na Pele</h1>
-                <h4>
-                    Resgatando a autoestima e a alegria perdida, e transformando a
-                    vida e o destino de milhares de mulheres.
-                </h4>
-                <p><a class="btn btn-dark" asp-action="cadastrar">Cadastrar</a></p>
-            </div>
-        </div>
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <button class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol>
-</div>
-<!--Final Carrossel-->
-<!--Início cards institucionais-->
-<div id="institucional">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+    </div>
+</section>
+<!-- /Carrossel-->
+<!-- Cards institucionais -->
+<section id="institucional">
     <div class="col-md-12">
         <div class="card h-100 g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
             <div class="col-auto d-none d-lg-block">
@@ -119,14 +120,13 @@
             </div>
         </div>
     </div>
-</div>
-<!--Final Cards institucionais-->
-<!--Início seção de atendimentos realizados-->
-<div class="container px-4 py-5 mt-2" id="icon-grid">
+</section>
+<!-- /Cards institucionais -->
+<!-- Atendimentos realizados -->
+<section class="container px-4 py-5 mt-2" id="icon-grid">
     <h2 class="pb-2 border-bottom align-items-center">
         Números Importantes
     </h2>
-
     <div class="row g-4 py-5">
         <div class="col-md-6 col-lg-3 p-5 rounded-3 shadow-sm d-flex flex-column">
             <div>
@@ -153,9 +153,9 @@
             </div>
         </div>
     </div>
-</div>
-
-<!--Newsletter-->
+</section>
+<!-- /Atendimentos realizados -->
+<!-- Newsletter -->
 <section class="newsletter">
     <form asp-action="cadastroNewsletter" method="post">
         <div class="container">
@@ -177,3 +177,4 @@
         </div>
     </form>
 </section>
+<!-- /Newsletter -->

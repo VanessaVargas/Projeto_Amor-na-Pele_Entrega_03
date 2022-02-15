@@ -4,9 +4,9 @@
     ViewData["Title"] = "Contato";
 }
 
-<h1 class="titleContato">Contato</h1>
-<!--Formulário contato-->
-<div class="container bg-tranparent sm-shadow">
+<h1 class="titleForm">Contato</h1>
+<!-- Formulário contato -->
+<section class="container bg-tranparent sm-shadow">
     <div class="row">
         <div class="col-md-4 order-md-1">
             <div id="img-form">
@@ -21,37 +21,31 @@
                            class="form-control"
                            id="inputNome"
                            placeholder="Nome"
-                           required
-                           asp-for="cadCont.nomeContato"/>
+                           asp-for="cadCont.nomeContato" />
                 </div>
-
                 <div class="form-group">
                     <label for="inputEmail">Endereço de e-mail</label>
                     <input type="email"
                            class="form-control"
                            id="inputEmail"
                            placeholder="email@exemplo.com"
-                           required
                            asp-for="cadCont.emailContato"/>
                 </div>
-
                 <div class="form-group">
                     <label for="textAreaMensagem">Mensagem</label>
                     <textarea class="form-control"
                               id="textAreaMensagem"
                               placeholder="Mensagem..."
                               rows="3"
-                              required
                               asp-for="cadCont.msg"></textarea>
                 </div>
-                <button class="btn btn-dark" type="submit">
-                    Enviar
-                 </button>
-
+                <a href="#" class="btn btn-dark">Enviar</a>
             </form>
         </div>
     </div>
-</div>
+</section>
+<!-- /Formulário contato -->
+
 <!--Newsletter-->
 <section class="newsletter">
     <form asp-action="cadastroContatoNewsletter" method="post">

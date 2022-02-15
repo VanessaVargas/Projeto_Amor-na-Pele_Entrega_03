@@ -7154,11 +7154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Eng. Mateus Cardodo\\Documents\\Projetos Git\\Projeto Squad\\Projeto_RecodePro_Squad09_Entrega02\\Amor_na_Pele_Squad09_Entrega02\\Amor_na_Pele_Squad09_Entrega02.csproj",
+      "projectUniqueName": "D:\\Users\\Eng. Mateus Cardodo\\Documents\\Projetos Git\\Projeto Squad\\Projeto_Amor-na-Pele_Entrega_03\\Amor_na_Pele_Squad09_Entrega02\\Amor_na_Pele_Squad09_Entrega02.csproj",
       "projectName": "Amor_na_Pele_Squad09_Entrega02",
-      "projectPath": "D:\\Users\\Eng. Mateus Cardodo\\Documents\\Projetos Git\\Projeto Squad\\Projeto_RecodePro_Squad09_Entrega02\\Amor_na_Pele_Squad09_Entrega02\\Amor_na_Pele_Squad09_Entrega02.csproj",
+      "projectPath": "D:\\Users\\Eng. Mateus Cardodo\\Documents\\Projetos Git\\Projeto Squad\\Projeto_Amor-na-Pele_Entrega_03\\Amor_na_Pele_Squad09_Entrega02\\Amor_na_Pele_Squad09_Entrega02.csproj",
       "packagesPath": "C:\\Users\\Eng. Mateus Cardodo\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Eng. Mateus Cardodo\\Documents\\Projetos Git\\Projeto Squad\\Projeto_RecodePro_Squad09_Entrega02\\Amor_na_Pele_Squad09_Entrega02\\obj\\",
+      "outputPath": "D:\\Users\\Eng. Mateus Cardodo\\Documents\\Projetos Git\\Projeto Squad\\Projeto_Amor-na-Pele_Entrega_03\\Amor_na_Pele_Squad09_Entrega02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7224,7 +7224,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

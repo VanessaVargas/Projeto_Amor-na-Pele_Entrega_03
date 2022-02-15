@@ -4,10 +4,11 @@
     ViewData["Title"] = "Links";
 }
 
-<!--Cards de Cadastro-->
-<div class="album py-5 bg-light">
+<!-- Cards com links ONG's -->
+<section class="album py-5 bg-light">
     <div class="container">
         <div class="row">
+            <!-- ONG 1 -->
             <div class="col-md-6">
                 <div class="card mb-4 shadow-sm">
                     <img class="card-img-top"
@@ -15,7 +16,6 @@
                          alt="ONG Em Boas Mãos"
                          width="200" />
                     <div class="card-body">
-                        <h5 class="card-title"></h5>
                         <h2>Em Boas Mãos</h2>
                         <p>
                             Buscamos através de um trabalho criterioso e avaliado caso a
@@ -30,14 +30,14 @@
                     </div>
                 </div>
             </div>
-
+            <!-- /ONG 1 -->
+            <!-- ONG 2 -->
             <div class="col-md-6">
                 <div class="card mb-4 shadow-sm">
                     <img class="card-img-top"
                          src="~/imagens/socialcare.png"
                          alt="ONG Social care" />
                     <div class="card-body">
-                        <h5 class="card-title"></h5>
                         <h2>Social Care</h2>
                         <p>
                             O Projeto da ONG SOCIAL CARE é oferecer o acesso as pessoas
@@ -52,14 +52,14 @@
                     </div>
                 </div>
             </div>
-
+            <!-- /ONG 2 -->
+            <!-- ONG 3 -->
             <div class="col-md-6">
                 <div class="card mb-4 shadow-sm">
                     <img class="card-img-top"
                          src="~/imagens/falamulher.png"
                          alt="ONG Fala Mulher" />
                     <div class="card-body">
-                        <h5 class="card-title"></h5>
                         <h2>Fala Mulher</h2>
                         <p>
                             Empoderando mulheres e fortalecendo famílias. Somos uma
@@ -73,14 +73,15 @@
                     </div>
                 </div>
             </div>
+            <!-- /ONG 3 -->
 
+            <!-- ONG 4 -->
             <div class="col-md-6">
                 <div class="card mb-4 shadow-sm">
                     <img class="card-img-top"
                          src="~/imagens/amigasdopeito.png"
                          alt="ONG Amigas do Peito" />
                     <div class="card-body">
-                        <h5 class="card-title"></h5>
                         <h2>Amigas do Peito</h2>
                         <p>
                             Surgida do sonho de Márcia Brasil, a ONG oferece
@@ -95,9 +96,12 @@
                     </div>
                 </div>
             </div>
+            <!-- /ONG 4 -->
         </div>
     </div>
-</div>
+</section>
+<!-- /Cards com links ONG's -->
+
 <!--Newsletter-->
 <section class="newsletter">
     <form asp-action="cadastroNewsletter" method="post">

@@ -61,6 +61,79 @@
                             <a asp-action="links" class="nav-link text-white"> Links </a>
                         </li>
                     </ul>
+                    <!-- Modal Login -->
+                    <section>
+                        <!-- Button trigger modal -->
+                        <button id="btnmodal"
+                                type="button"
+                                class="btn text-white"
+                                data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                            Login
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade"
+                             id="staticBackdrop"
+                             data-bs-backdrop="static"
+                             data-bs-keyboard="false"
+                             tabindex="-1"
+                             aria-labelledby="staticBackdropLabel"
+                             aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title"     id="staticBackdropLabel">
+                                            Login
+                                        </h3>
+                                        <button type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                                id="btn-modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Área do Form Login -->
+                                        <div class="row">
+                                            <div class="card mb-4" id="formLogin">
+                                                <form class="cardForm" action="index.html">
+                                                    <div class="form-group">
+                                                        <label for="inputLogin">Login:</label>
+                                                        <input type="email"
+                                                               class="form-control"
+                                                               id="inputLogin"
+                                                               placeholder="Digite seu e-mail" />
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="inputSenha">Senha:</label>
+                                                        <input type="password"
+                                                               class="form-control"
+                                                               id="inputSenha"
+                                                               placeholder="Digite sua senha" />
+                                                    </div>
+                                                    <!-- Botão de Enviar -->
+                                                    <button class="btn btn-dark" type="submit">
+                                                        Entrar
+                                                    </button>
+                                                </form>
+                                                <!-- Checkbox -->
+                                                <div class="form-group" id="checkLogin">
+                                                    <input class="form-check-input"
+                                                           type="checkbox"
+                                                           value=""
+                                                           id="form1Example3" />
+                                                    <label class="form-check-label" for="form1Example3">
+                                                        Lembrar minha senha
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /Área do Form Login -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Modal Login -->
                 </div>
             </div>
         </nav>
@@ -75,7 +148,6 @@
         </main>
     </div>
     <!-- Fim do Especifico da página -->
-
     <!--Footer-->
     <footer>
         <div class="row">
@@ -89,7 +161,6 @@
         </div>
     </footer>
     <!--Fim do Footer-->
-
     <!--JS Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
