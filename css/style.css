@@ -14,20 +14,24 @@ body {
   background-color: #058177;
 }
 .navbar ul li a,
-.navbar button {
+#btnmodal {
   font-size: larger;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   padding: 7px 13px;
 }
 a.active,
-a:hover {
+a:hover,
+#btnmodal:hover {
   transition: 0.5s;
   color: #feaec9 !important;
 }
 .btn {
   background-color: #058177 !important;
   border: none;
+}
+#checkLogin {
+  margin-top: 20px;
 }
 .newsletter {
   padding: 40px;
